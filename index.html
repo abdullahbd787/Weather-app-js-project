@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="/images/favicon-weather.png">
+   <link rel="stylesheet" href="style.css">
+   <title>Weather</title>
+</head>
+<body>
+  <div class="main">
+    <div class="container" style="margin-top: 22px;">
+      <div class="top-aria">
+         <p>Results for <span id="city"> Dhaka</span> </p>
+         <div>
+            <input id="input-box" type="text" placeholder="Enter a city">
+            <button id="submit-btn">Search</button>
+         </div>
+      </div>
+      <div  class="content">
+         <div class="weather">
+            <div>
+               <h3 id="citys">Dhaka</h3>
+               <span id="country">BD</span>
+
+               <p style="font-size: 34px; padding: 10px 0;"><span id="temp">29.99 °C</span><!--&deg;c --> </p>
+               
+            </div>
+            <div class="moreinfo">
+               <div style="display: flex ; gap: 10px; align-items: center;">
+               <p>Humidity:</p>
+               <p id="humidity">74%</p>
+            </div>
+            <div style="display : flex ; gap: 10px; align-items: center;">
+               <p>Wind Speed:</p>
+               <p id="wind">5 km/h</p>
+            </div>
+            <div style="display : flex; gap: 10px; align-items: center;">
+               <p>Feels-like:</p>
+               <p id="feellike">38.99 °C</p>
+            </div>
+            <div class="">
+               <p>Min: <span id="min">25.74 °C </span> </p>
+               <p>Max: <span id="max"> 32.58 °C</span> </p>
+            </div>
+            </div>
+         </div>
+
+         <div>
+            <p style="font-size: 22px;">Weather</p>
+            <p style="font-size: 18px;" id="desc">haze</p>
+            <p id="demo"></p>
+         </div>
+      </div>
+   </div>
+  </div>
+   <script src="app.js"></script>
+</body>
+</html>

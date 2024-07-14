@@ -1,0 +1,53 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.container{
+   border-radius: 4px;
+   max-width: 800px;
+   height: 450px;
+   margin: 0 auto;
+   padding: 30px;
+   background-color: #376EA9;
+   color: white;
+}
+.container .top-aria{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+}
+.content{
+   margin-top: 24px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.container .content .weather{
+   display: flex;
+   gap: 80px;
+}
+.moreinfo{
+   font-size: 15px;
+   line-height: 22px;
+   font-weight: 500;
+}
+#input-box{
+   outline: none;
+   padding: 2px;
+   border:  1px solid transparent;
+   border-radius: 3px;
+}
+#submit-btn{
+   padding:2px;
+   background-color: white;
+   outline: none;
+   border: none;
+   color: gray;
+}
+#country{
+   font-size: 22px;
+}
+#citys{
+   font-size: 18px;
+}
